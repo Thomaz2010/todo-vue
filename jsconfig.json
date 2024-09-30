@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // Define a raiz do projeto como ponto de partida
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"] // Removi o "./" para garantir compatibilidade com diferentes setups
     }
   },
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "dist"] // Exclui as pastas corretas
 }
